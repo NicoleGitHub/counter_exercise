@@ -2,11 +2,43 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
-</head>
-        <meta charset="utf-8">
-        <title>Counter</title>
-      </head>
-      <body>
-        <p>Hello world!</p>
-      </body>
+</head> 
+
+<script type="text/javascript" src="counter.js"></script>
+
+<body>
+<div class="panel">
+  <row>
+    <div class="border">
+      <row class="grid-container">
+
+          <div class="grid-sub-container">
+            <div class="grid-item">
+              <button class="button1" type="submit" onclick="plus(1)">+</button>
+            </div>
+            <div class="grid-item" id="numberOne">0</div>
+            <div class="grid-item">
+              <button class="button1" type="submit" onclick="minus(1)">-</button>
+            </div>
+          </div>
+
+          <div class="grid-sub-container">
+            <div class="grid-item">
+              <button class="button1" type="submit" onclick="plus(2)">+</button>
+            </div>
+            <div class="grid-item" id="numberTwo">0</div>
+            <div class="grid-item">
+              <button class="button1" type="submit" onclick="minus(2)">-</button>
+            </div>
+          </div>
+
+      </row>
+    </div>
+    <div class="sum-container">
+      <col>sum:</col>
+      <col style="height: 45px;"><p class="sum-field" id="sum">0</p></col>
+    </div>
+  </row>
+</div>
+<body>
 </html>
